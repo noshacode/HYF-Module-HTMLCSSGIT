@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: sans-serif, Helvetica, Arial;
+}
+
+header {
+    display: flex;
+    margin: 24px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-container {
+    flex: 1
+}
+
+nav {
+    flex: 5;
+}
+
+.end-header {
+    flex: 1.3;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.logo-img {
+    fill: #0abf53;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    color: black;
+}
+
+nav li a {
+    color: black;
+    padding: 10px;
+}
+
+.nav-links span {
+    padding-left: 9px;
+}
+
+
+.main-container {
+    display: flex;
+}
+
+.main-content {
+    max-width: 40%;
+    margin: 0 2%;
+}
+
+.main-container h1 {
+    font-weight: 600;
+    font-size: 64px;
+    margin-bottom: 30px;
+}
+
+.main-container p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.aside {
+    max-width: 60%;
+    margin: 10px;
+}
+
+.button {
+    color: #fff;
+    font-size: 15px;
+    background-color: #0abf53;
+    border-color: #0abf53;
+    padding: 15px;
+    border-radius: 6px;
+    border: none;
+}
+
+.middle {
+    background-color: #f3f6f9;
+    padding: 20px;
+}
+
+.middle-p {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 42px;
+    margin-bottom: 30px;
+}
+
+.logos {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+.middle-paragraphs {
+    display: flex;
+
+}
+
+.middle-paragraphs div {
+    padding: 10px;
+}
+
+
+.middle-paragraps h3 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.middle-paragraps p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+
+.link-green {
+    color: #0abf53;
+    text-decoration: underline;
+
+}
+
+.green-box {
+    background-color: #0abf53;
+    text-align: center;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.green-box div button {
+    background-color: #fff;
+    padding: 15px;
+    margin-top: 20px;
+    color: black;
+    font-weight: 600;
+}
+
+.green-box h2 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 600;
+
+}
+
+footer {
+    background-color: #00112c;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    padding-bottom: 8px;
+    font-size: 14px;
+}
+
+.footer-one {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 3fr;
+    justify-items: center;
+    padding: 20px;
+}
+
+.footer-one>div {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    min-width: 120px;
+}
+
+.footer-one>div a:first-child {
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.footer-input input {
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 200px;
+    border: 1px solid #374661;
+    color: #a5afbd;
+    background-color: #00112c;
+    margin-bottom: 10px;
+}
+
+.footer-input h3 {
+    color: #fff;
+    margin-bottom: 6px;
+    font-size: 16px;
+
+}
+
+#privacy-confirm-footer {
+    font-size: 13px;
+    color: #a5afbd;
+}
+
+#privacy-confirm-footer a {
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: underline;
+    color: #a5afbd;
+
+}
+
+.footer-social-media {
+    display: flex;
+
+
+}
+
+.footer-social-media div {
+    margin: 5px;
+    padding: 10px;
+
+}
+
+.grey {
+    color: #a5afbd;
+}
+
+.footer-two {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding: 40px;
+}
+
+
+@media screen and (max-width: 1250px) {
+
+    nav {
+        display: none;
+    }
+
+    .end-header {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+    } 
+
+}
+
+
+
+@media screen and (max-width: 680px) {
+
+    .main-container {
+        flex-direction: column;
+        margin: 10%;
+    }
+
+    .main-content {
+        max-width: 95%;
+    }
+
+    .aside {
+        max-width: 95%;
+        align-self: center;
+    }
+
+    .main-container h1 {
+        font-size: 40px;
+    }
+
+    .middle-paragraphs {
+        flex-direction: column
+    }
+
+    .footer-one {
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .footer-input {
+        grid-column: 1 / -1;
+        margin: 20px;
+    }
+
+    .footer-two {
+        flex-direction: column;
+    }
+
+}
