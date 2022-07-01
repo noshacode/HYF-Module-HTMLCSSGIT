@@ -13,7 +13,7 @@ body {
 
 header {
     display: flex;
-    margin: 24px;
+    margin: 1.5rem;
     align-items: center;
     justify-content: space-between;
 }
@@ -49,11 +49,11 @@ nav {
 
 nav li a {
     color: black;
-    padding: 10px;
+    padding: .625rem;
 }
 
 .nav-links span {
-    padding-left: 9px;
+    padding-left: .5625rem;
 }
 
 
@@ -68,44 +68,49 @@ nav li a {
 
 .main-container h1 {
     font-weight: 600;
-    font-size: 64px;
-    margin-bottom: 30px;
+    font-size: 4rem;
+    margin-bottom: 1.875rem;
 }
 
 .main-container p {
-    font-size: 20px;
-    margin-bottom: 30px;
+    font-size: 1.25rem;
+    margin-bottom: 1.875rem;
 }
 
 .aside {
     max-width: 60%;
-    margin: 10px;
+    margin: .625rem;
 }
 
 .button {
     color: #fff;
-    font-size: 15px;
+    font-size: 1.125rem;
     background-color: #0abf53;
     border-color: #0abf53;
-    padding: 15px;
-    border-radius: 6px;
+    padding: .9375rem;
+    border-radius: .375rem;
     border: none;
 }
 
+ .button:hover{
+    background-color: rgb(31, 136, 40);
+    border-color: rgb(31, 136, 40);
+    color: #fff;
+}
 .middle {
     background-color: #f3f6f9;
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 .middle-p {
     font-weight: 600;
-    font-size: 30px;
-    line-height: 42px;
-    margin-bottom: 30px;
+    font-size: 1.875rem;
+    line-height: 2.625rem;
+    margin-bottom: 1.875rem;
 }
 
 .logos {
-    margin-top: 50px;
+    margin-top: 3.125rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center
@@ -117,19 +122,19 @@ nav li a {
 }
 
 .middle-paragraphs div {
-    padding: 10px;
+    padding: .625rem;
 }
 
 
 .middle-paragraps h3 {
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
     font-weight: 600;
 }
 
 .middle-paragraps p {
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 1rem;
+    line-height: 1.625rem;
     font-weight: 400;
 }
 
@@ -143,7 +148,7 @@ nav li a {
 .green-box {
     background-color: #0abf53;
     text-align: center;
-    height: 250px;
+    height: 15.625rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -152,15 +157,15 @@ nav li a {
 
 .green-box div button {
     background-color: #fff;
-    padding: 15px;
-    margin-top: 20px;
+    padding: .9375rem;
+    margin-top: 1.25rem;
     color: black;
     font-weight: 600;
 }
 
 .green-box h2 {
     color: #fff;
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 600;
 
 }
@@ -172,53 +177,56 @@ footer {
 
 footer a {
     color: #fff;
-    padding-bottom: 8px;
-    font-size: 14px;
+    padding-bottom: .5rem;
+    font-size: .875rem;
+}
+footer a:hover{
+    text-decoration: underline;
 }
 
 .footer-one {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 3fr;
     justify-items: center;
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 .footer-one>div {
-    padding: 10px;
+    padding: .625rem;
     display: flex;
     flex-direction: column;
-    min-width: 120px;
+    min-width: 7.5rem;
 }
 
 .footer-one>div a:first-child {
     font-weight: 800;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .footer-input input {
-    padding: 15px;
-    border-radius: 10px;
-    max-width: 200px;
-    border: 1px solid #374661;
+    padding: .9375rem;
+    border-radius: .625rem;
+    max-width: 12.5rem;
+    border: .0625rem solid #374661;
     color: #a5afbd;
     background-color: #00112c;
-    margin-bottom: 10px;
+    margin-bottom: .625rem;
 }
 
 .footer-input h3 {
     color: #fff;
-    margin-bottom: 6px;
-    font-size: 16px;
+    margin-bottom: .375rem;
+    font-size: 1rem;
 
 }
 
 #privacy-confirm-footer {
-    font-size: 13px;
+    font-size: .8125rem;
     color: #a5afbd;
 }
 
 #privacy-confirm-footer a {
-    font-size: 13px;
+    font-size: .8125rem;
     font-weight: 400;
     text-decoration: underline;
     color: #a5afbd;
@@ -232,8 +240,8 @@ footer a {
 }
 
 .footer-social-media div {
-    margin: 5px;
-    padding: 10px;
+    margin: .3125rem;
+    padding: .625rem;
 
 }
 
@@ -245,11 +253,11 @@ footer a {
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
-    padding: 40px;
+    padding: 2.5rem;
 }
 
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 78.125rem) {
 
     nav {
         display: none;
@@ -267,7 +275,7 @@ footer a {
 
 
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 42.5rem) {
 
     .main-container {
         flex-direction: column;
@@ -284,7 +292,7 @@ footer a {
     }
 
     .main-container h1 {
-        font-size: 40px;
+        font-size: 2.5rem;
     }
 
     .middle-paragraphs {
@@ -298,7 +306,7 @@ footer a {
 
     .footer-input {
         grid-column: 1 / -1;
-        margin: 20px;
+        margin: 1.25rem;
     }
 
     .footer-two {
